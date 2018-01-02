@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         simpleViewAnimator.setInAnimation(in);
         simpleViewAnimator.setOutAnimation(out);
 
-        simpleViewAnimator.setAnimateFirstView(true); // set false value for setAnimateFirstView
+        simpleViewAnimator.setAnimateFirstView(false); // set false value for setAnimateFirstView
 
         // ClickListener for NEXT button
         // When clicked on Button ViewSwitcher will switch between views
